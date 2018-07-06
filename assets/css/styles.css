@@ -1,6 +1,6 @@
 /*Header*/
 #header {
-	background-image: url(../images/header-background.jpg);
+	background-image: url(../images/header-background.png);
 	position: relative;
 	background-repeat: no-repeat;
 }
@@ -18,7 +18,7 @@
 	font-size: 36px;
 	float: left;
 	margin-left: 10%;
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 #button {
@@ -38,7 +38,7 @@
 	font-size: 90px;
 	text-align: center;
 	color: white;
-	width: 50%;
+	width: 55%;
 	margin: 100px auto;
 	margin-bottom: 30px;
 }
@@ -74,7 +74,7 @@
 /*About*/
 
 #about {
-	background-image: url(../images/about-background.jpg);
+	background-image: url(../images/about-background.png);
 	position: relative;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -115,21 +115,20 @@
 /*Ingredients*/
 
 #ingredients {
-	background-image: url("../images/ingredients-background.jpg");
+	background-image: url("../images/ingredients-background.png");
 	background-repeat: no-repeat;
 	position: relative;
 	width: 100%;
-	height: 100vh;
-	padding-top: 80px;
+	padding: 80px;
 }
 
 #ingredients #container {
 	width: 500px;
-	height: 500px;
+	height: auto;
 	background-color: rgb(0,0,0,0.5);
 	color: white;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 30px;
 	margin-left: 800px;
 
 	/*margin: 100px auto;*/
@@ -144,37 +143,80 @@
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
 #sub-container #img-ingredients {
 	padding-top: 40px;
+	padding-bottom: 30px;
+	/*margin-right: 30px;*/
+}
+
+.ingredients-img {
+	margin-right: 30px;
 }
 
 #menu {
-	background-image: url(../images/about-background.jpg);
+	background-image: url(../images/menu-background.png);
 	background-repeat: no-repeat;
 	position: relative;
 	width: 100%;
 	height: auto;
+	/*line-height: 0.8;*/
 	/*display: inline-block;*/
 }
 
 .list {
 	list-style-type: none;
-	line-height: 0.7;
+	line-height: 0.9;
 }
 
 #container-left {
 	display: inline-block;
-	margin-left: 15%;
+	margin-left: 10%;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #container-right {
 	display: inline-block;
-	margin-right: 15%;
+	margin-right: 10%;
 	float: right;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	/*margin-right: 10%;*/
+}
+
+#sub-appertisers {
+	text-align: center;
+}
+
+.decoration {
+	padding-bottom: 20px;
+	padding-top: -5px;
+}
+
+.type-eating {
+	color: #cc9900;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.name-eating {
+	float: left;
+	font-size: 21px;
+	color: #c89f2d;
+}
+
+.cost {
+	float: right;
+	font-size: 21px;
+	color: #c89f2d;
+}
+
+.description-eating {
+	font-size: 16px;
+	text-align: left;
 }
 
 
