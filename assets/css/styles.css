@@ -1,0 +1,182 @@
+/*Header*/
+#header {
+	background-image: url(../images/header-background.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+#header-top {
+	display: inline;
+	margin-right: 10%;
+	margin-top: 30px;
+	height: auto;
+}
+
+#logo {
+	display: inline;
+	color: white;
+	font-size: 36px;
+	float: left;
+	margin-left: 10%;
+	margin-top: 30px;
+}
+
+#button {
+	float: right;
+	font-size: 21px;
+	margin-top: 30px;
+	margin-right: 20%;
+}
+
+.button {
+	margin-right: 50px;
+	color: white;
+	text-decoration: none;
+}
+
+#header-body p {
+	font-size: 90px;
+	text-align: center;
+	color: white;
+	width: 50%;
+	margin: 100px auto;
+	margin-bottom: 30px;
+}
+
+#header-body img {
+	display: block;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+
+#header-bottom {
+	margin-top: 30px;
+	/*margin-left: 35%;*/
+	text-align: center;
+}
+
+#header-bottom .header-bottom-button {
+	display: inline-block;
+	width: 230px;
+	height: 60px;
+	border: 1px solid black;
+	font-size: 18px;
+	background-color: white;
+	opacity: 0.5;
+	margin-right: 30px;
+	margin-bottom: 100px;
+	text-align: center;
+	padding: 20px 25px;
+	box-sizing: border-box;
+}
+
+/*About*/
+
+#about {
+	background-image: url(../images/about-background.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	width: 100%;
+	margin-right: 100px;
+	overflow: auto;
+}
+
+#info-cook {
+	float: left;
+	width: 25%;
+	margin-left: 200px;
+}
+
+#info-cook h3 {
+	font-size: 36px;
+	text-align: center;
+	color: #cc9900;
+}
+
+#info-cook p {
+	font-size: 16px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#info-cook img {
+	display: block;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+
+#dish {
+	float: right;
+	margin-right: 200px;
+}
+
+/*Ingredients*/
+
+#ingredients {
+	background-image: url("../images/ingredients-background.jpg");
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	padding-top: 80px;
+}
+
+#ingredients #container {
+	width: 500px;
+	height: 500px;
+	background-color: rgb(0,0,0,0.5);
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	margin-left: 800px;
+
+	/*margin: 100px auto;*/
+}
+
+#sub-container h3{
+	font-size: 36px;
+}
+
+#sub-container p {
+	font-size: 16px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+}
+
+#sub-container #img-ingredients {
+	padding-top: 40px;
+}
+
+#menu {
+	background-image: url(../images/about-background.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+	height: auto;
+	/*display: inline-block;*/
+}
+
+.list {
+	list-style-type: none;
+	line-height: 0.7;
+}
+
+#container-left {
+	display: inline-block;
+	margin-left: 15%;
+}
+
+#container-right {
+	display: inline-block;
+	margin-right: 15%;
+	float: right;
+	/*margin-right: 10%;*/
+}
+
+
+
+
