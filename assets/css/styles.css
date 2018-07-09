@@ -128,7 +128,7 @@
 	text-align: center;
 }
 
-#header-about {
+.header-about {
 	color: #cc9900; 
 
 }
@@ -138,6 +138,14 @@
 	background-image: url(../images/yello-decoration.png);
 	background-repeat: no-repeat;
 	background-position: bottom center;
+}
+
+.decoration-white {
+	padding-bottom: 50px;
+	background-image: url(../images/white-decoration.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	color: white;
 }
 
 .content-description {
@@ -234,6 +242,7 @@
 	background-image: url(../images/menu-background.png);
 	background-repeat: no-repeat;
 	position: relative;
+	background-size: cover;
 	width: 100%;
 	height: auto;
 	/*line-height: 0.8;*/
@@ -242,22 +251,25 @@
 
 .list {
 	list-style-type: none;
-	line-height: 0.9;
+	padding-left: 0px;
+	/*line-height: 0.9;*/
 }
 
 #container-left {
 	display: inline-block;
-	margin-left: 10%;
+	width: 25%;
+	margin-left: 15%;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	/*padding-bottom: 50px;*/
 }
 
 #container-right {
 	display: inline-block;
-	margin-right: 10%;
+	width: 25%;
+	margin-right: 15%;
 	float: right;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	/*padding-bottom: 50px;*/
 	/*margin-right: 10%;*/
 }
 
@@ -274,6 +286,24 @@
 	color: #cc9900;
 	font-weight: bold;
 	font-size: 36px;
+	background-image: url(../images/yello-decoration.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	padding-bottom: 50px;
+}
+
+.eating {
+	padding-bottom: 30px;
+	box-sizing: border-box;
+}
+
+.name-and-cost {
+	display: table;
+	border-bottom: 1px solid #e1d8b4;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	width: 100%;
 }
 
 .name-eating {
@@ -330,15 +360,16 @@
 	background-image: url(../images/reservations-background.png);
 	background-repeat: no-repeat;
 	display: table;
+	width: 100%;
 }
 
 #box-left, #box-right {
 	width: 50%;
-	height: auto;
+	height: 80vh;
+	display: table;
 }
 
 #box-left {
-	display: table;
 	float: left;
 	/*padding: 80px;*/
 }
@@ -351,7 +382,8 @@
 	display: table;
 	width: 78%;
 	height: auto;
-	margin: 80px 100px 80px 150px;
+	/*margin: 80px 100px 80px 150px;*/
+	margin-left: 150px;
 }
 
 #form {
@@ -363,10 +395,20 @@
 
 #reservations-img1 {
 	float: left;
+	width: 50%;
+	height: 80vh;
+	background-image: url(../images/reservations-img1.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #reservations-img2 {
 	float: right;
+	width: 50%;
+	height: 80vh;
+	background-image: url(../images/reservations-img2.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #form h3 {
@@ -402,6 +444,11 @@
 	float: right;
 }
 
+#container-submit {
+	width: 100%;
+	display: table;
+}
+
 #submit {
 	padding: 15px 60px;
 	margin: 35px;
@@ -421,6 +468,8 @@
 	width: 100%;
 	height: auto;
 	display: table;
+	padding-top: 20px;
+	box-sizing: border-box;
 }
 
 #about-us{
@@ -437,7 +486,7 @@
 	margin-left: 5%;
 }
 
-#about-us h3, #open-time h3, #location h3 {
+.fs-21 {
 	font-size: 21px;
 }
 
