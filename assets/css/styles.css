@@ -33,7 +33,7 @@
 	float: right;
 	font-size: 21px;
 	margin-top: 30px;
-	margin-right: 20%;
+	margin-right: 15%;
 }
 
 .button {
@@ -42,21 +42,35 @@
 	text-decoration: none;
 }
 
-#header-body p {
+#header-body {
 	font-size: 90px;
 	text-align: center;
 	color: white;
 	width: 55%;
-	margin: 100px auto;
-	margin-bottom: 30px;
+	margin: 0px auto;
+	padding-top: 100px;
+	padding-bottom: 65px;
 }
 
-#header-body img {
-	display: block;
-	width: auto;
-	height: auto;
-	margin: 0 auto;
+#header-body {
+	background-image: url(../images/header-bottom.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
 }
+
+
+#sns {
+	float: right;
+}
+
+.fab {
+	color: #dab33e;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
 
 #header-bottom {
 	margin-top: 30px;
@@ -91,41 +105,67 @@
 
 #about {
 	background-image: url(../images/about-background.png);
-	position: relative;
+	background-size: cover;
+	display: table;
 	background-repeat: no-repeat;
 	width: 100%;
+	/*height: 100vh;*/
 	margin-right: 100px;
-	overflow: auto;
+	padding-top: 50px;
+	box-sizing: border-box;
 }
 
 #info-cook {
 	float: left;
 	width: 25%;
 	margin-left: 200px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
-#info-cook h3 {
+.header-name {
 	font-size: 36px;
 	text-align: center;
-	color: #cc9900;
 }
 
-#info-cook p {
+#header-about {
+	color: #cc9900; 
+
+}
+
+.decoration-yellow {
+	padding-bottom: 50px;
+	background-image: url(../images/yello-decoration.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+.content-description {
 	font-size: 16px;
 	text-align: center;
 	margin-top: 20px;
+	line-height: 1.5;
 }
 
-#info-cook img {
-	display: block;
+#cook {
+	background-image: url(../images/cook.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	padding-top: 280px;
+	margin-left: 65px;
+/*	display: block;
 	width: auto;
 	height: auto;
-	margin: 0 auto;
+	margin: 0 auto;*/
 }
 
 #dish {
 	float: right;
 	margin-right: 200px;
+	background-repeat: no-repeat;
+	background-image: url(../images/dish.png);
+	width: 43%;
+	height: 90vh;
 }
 
 /*Ingredients*/
@@ -135,7 +175,9 @@
 	background-repeat: no-repeat;
 	position: relative;
 	width: 100%;
+	height: auto;
 	padding: 80px;
+	box-sizing: border-box;
 }
 
 #ingredients #container {
@@ -170,7 +212,23 @@
 
 .ingredients-img {
 	margin-right: 30px;
+	width: 110px;
+	height: 110px;
+	display: inline-block;
 }
+
+#ingredients-img1 {
+	background-image: url(../images/ingredients-img1.png);
+} 
+
+#ingredients-img2 {
+	background-image: url(../images/ingredients-img2.png);
+}
+
+#ingredients-img3 {
+	background-image: url(../images/ingredients-img3.png);
+}
+
 
 #menu {
 	background-image: url(../images/menu-background.png);
